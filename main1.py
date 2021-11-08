@@ -1,8 +1,9 @@
-def checkpalindrome(str):
-	if str[::-1]==str:
-		return True
+def checkpalindrome(n):
+        m=n[::-1]
+	if m==n:
+                return True
 	else:
-		return Flase
+		return False
 n=input
 
 if checkpalindrome(n):
