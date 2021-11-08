@@ -1,10 +1,10 @@
 def checkpalindrome(n):
-        m=n[::-1]
+	m=n[::-1]
 	if m==n:
-                return True
+		return True
 	else:
 		return False
-n=input
+n=input()
 
 if checkpalindrome(n):
 	print("palindrome")
